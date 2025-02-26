@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/action_server2.dir/src/action_server2.cpp.o: in function `main':
+action_server2.cpp:(.text+0xa08): undefined reference to `moveit::planning_interface::MoveGroupInterface::MoveGroupInterface(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<tf2_ros::Buffer> const&, ros::WallDuration const&)'
+/usr/bin/ld: action_server2.cpp:(.text+0xad8): undefined reference to `moveit::planning_interface::MoveGroupInterface::~MoveGroupInterface()'
+/usr/bin/ld: action_server2.cpp:(.text+0xbe8): undefined reference to `moveit::planning_interface::MoveGroupInterface::~MoveGroupInterface()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/action_server2.dir/build.make:103: /home/tjurm/demo02_ws/devel/.private/tjurm_arm/lib/tjurm_arm/action_server2] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

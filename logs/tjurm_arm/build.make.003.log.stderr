@@ -1,0 +1,17 @@
+/usr/bin/ld: CMakeFiles/serial_port.dir/src/serial_port.cpp.o: in function `main':
+serial_port.cpp:(.text+0x158): undefined reference to `serial::Serial::Serial(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, serial::Timeout, serial::bytesize_t, serial::parity_t, serial::stopbits_t, serial::flowcontrol_t)'
+/usr/bin/ld: serial_port.cpp:(.text+0x1a8): undefined reference to `serial::Serial::setPort(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: serial_port.cpp:(.text+0x1c8): undefined reference to `serial::Serial::setBaudrate(unsigned int)'
+/usr/bin/ld: serial_port.cpp:(.text+0x1d4): undefined reference to `serial::Serial::setTimeout(serial::Timeout&)'
+/usr/bin/ld: serial_port.cpp:(.text+0x1dc): undefined reference to `serial::Serial::open()'
+/usr/bin/ld: serial_port.cpp:(.text+0x1e4): undefined reference to `serial::Serial::isOpen() const'
+/usr/bin/ld: serial_port.cpp:(.text+0x374): undefined reference to `serial::Serial::available()'
+/usr/bin/ld: serial_port.cpp:(.text+0x394): undefined reference to `serial::Serial::read(unsigned char*, unsigned long)'
+/usr/bin/ld: serial_port.cpp:(.text+0x424): undefined reference to `serial::Serial::write(unsigned char const*, unsigned long)'
+/usr/bin/ld: serial_port.cpp:(.text+0x438): undefined reference to `serial::Serial::close()'
+/usr/bin/ld: serial_port.cpp:(.text+0x444): undefined reference to `serial::Serial::~Serial()'
+/usr/bin/ld: serial_port.cpp:(.text+0x6d8): undefined reference to `serial::Serial::~Serial()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/serial_port.dir/build.make:102: /home/tjurm/demo02_ws/devel/.private/tjurm_arm/lib/tjurm_arm/serial_port] Error 1
+make[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/serial_port.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

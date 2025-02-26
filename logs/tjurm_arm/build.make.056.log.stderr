@@ -1,0 +1,214 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   25 |         [01;31m[K�[m[K��拟关节角度（可以根据实际机器人获取真实数据）
+      |         [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:10:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\250[m[K’ in program
+   25 |         �[01;31m[K�[m[K�拟关节角度（可以根据实际机器人获取真实数据）
+      |          [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:11:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\241[m[K’ in program
+   25 |         �[01;31m[K�[m[K拟关节角度（可以根据实际机器人获取真实数据）
+      |           [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:12:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   25 |         模[01;31m[K�[m[K��关节角度（可以根据实际机器人获取真实数据）
+      |            [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:13:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\213[m[K’ in program
+   25 |         模�[01;31m[K�[m[K�关节角度（可以根据实际机器人获取真实数据）
+      |             [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:14:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\237[m[K’ in program
+   25 |         模�[01;31m[K�[m[K关节角度（可以根据实际机器人获取真实数据）
+      |              [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:15:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   25 |         模拟[01;31m[K�[m[K��节角度（可以根据实际机器人获取真实数据）
+      |               [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:16:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\205[m[K’ in program
+   25 |         模拟�[01;31m[K�[m[K�节角度（可以根据实际机器人获取真实数据）
+      |                [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:17:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\263[m[K’ in program
+   25 |         模拟�[01;31m[K�[m[K节角度（可以根据实际机器人获取真实数据）
+      |                 [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:18:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\350[m[K’ in program
+   25 |         模拟关[01;31m[K�[m[K��角度（可以根据实际机器人获取真实数据）
+      |                  [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:19:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\212[m[K’ in program
+   25 |         模拟关�[01;31m[K�[m[K�角度（可以根据实际机器人获取真实数据）
+      |                   [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:20:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\202[m[K’ in program
+   25 |         模拟关�[01;31m[K�[m[K角度（可以根据实际机器人获取真实数据）
+      |                    [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:21:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\350[m[K’ in program
+   25 |         模拟关节[01;31m[K�[m[K��度（可以根据实际机器人获取真实数据）
+      |                     [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:22:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\247[m[K’ in program
+   25 |         模拟关节�[01;31m[K�[m[K�度（可以根据实际机器人获取真实数据）
+      |                      [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:23:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\222[m[K’ in program
+   25 |         模拟关节�[01;31m[K�[m[K度（可以根据实际机器人获取真实数据）
+      |                       [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:24:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   25 |         模拟关节角[01;31m[K�[m[K��（可以根据实际机器人获取真实数据）
+      |                        [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:25:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\272[m[K’ in program
+   25 |         模拟关节角�[01;31m[K�[m[K�（可以根据实际机器人获取真实数据）
+      |                         [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:26:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\246[m[K’ in program
+   25 |         模拟关节角�[01;31m[K�[m[K（可以根据实际机器人获取真实数据）
+      |                          [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:27:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\357[m[K’ in program
+   25 |         模拟关节角度[01;31m[K�[m[K��可以根据实际机器人获取真实数据）
+      |                           [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\274[m[K’ in program
+   25 |         模拟关节角度�[01;31m[K�[m[K�可以根据实际机器人获取真实数据）
+      |                            [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:29:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\210[m[K’ in program
+   25 |         模拟关节角度�[01;31m[K�[m[K可以根据实际机器人获取真实数据）
+      |                             [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:30:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   25 |         模拟关节角度（[01;31m[K�[m[K��以根据实际机器人获取真实数据）
+      |                              [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:31:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\217[m[K’ in program
+   25 |         模拟关节角度（�[01;31m[K�[m[K�以根据实际机器人获取真实数据）
+      |                               [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:32:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\257[m[K’ in program
+   25 |         模拟关节角度（�[01;31m[K�[m[K以根据实际机器人获取真实数据）
+      |                                [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:33:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   25 |         模拟关节角度（可[01;31m[K�[m[K��根据实际机器人获取真实数据）
+      |                                 [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:34:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\273[m[K’ in program
+   25 |         模拟关节角度（可�[01;31m[K�[m[K�根据实际机器人获取真实数据）
+      |                                  [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:35:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\245[m[K’ in program
+   25 |         模拟关节角度（可�[01;31m[K�[m[K根据实际机器人获取真实数据）
+      |                                   [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:36:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   25 |         模拟关节角度（可以[01;31m[K�[m[K��据实际机器人获取真实数据）
+      |                                    [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:37:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\240[m[K’ in program
+   25 |         模拟关节角度（可以�[01;31m[K�[m[K�据实际机器人获取真实数据）
+      |                                     [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:38:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\271[m[K’ in program
+   25 |         模拟关节角度（可以�[01;31m[K�[m[K据实际机器人获取真实数据）
+      |                                      [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:39:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   25 |         模拟关节角度（可以根[01;31m[K�[m[K��实际机器人获取真实数据）
+      |                                       [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:40:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\215[m[K’ in program
+   25 |         模拟关节角度（可以根�[01;31m[K�[m[K�实际机器人获取真实数据）
+      |                                        [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:41:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+   25 |         模拟关节角度（可以根�[01;31m[K�[m[K实际机器人获取真实数据）
+      |                                         [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:42:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   25 |         模拟关节角度（可以根据[01;31m[K�[m[K��际机器人获取真实数据）
+      |                                          [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:43:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+   25 |         模拟关节角度（可以根据�[01;31m[K�[m[K�际机器人获取真实数据）
+      |                                           [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:44:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\236[m[K’ in program
+   25 |         模拟关节角度（可以根据�[01;31m[K�[m[K际机器人获取真实数据）
+      |                                            [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:45:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\351[m[K’ in program
+   25 |         模拟关节角度（可以根据实[01;31m[K�[m[K��机器人获取真实数据）
+      |                                             [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:46:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\231[m[K’ in program
+   25 |         模拟关节角度（可以根据实�[01;31m[K�[m[K�机器人获取真实数据）
+      |                                              [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:47:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\205[m[K’ in program
+   25 |         模拟关节角度（可以根据实�[01;31m[K�[m[K机器人获取真实数据）
+      |                                               [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:48:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   25 |         模拟关节角度（可以根据实际[01;31m[K�[m[K��器人获取真实数据）
+      |                                                [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:49:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\234[m[K’ in program
+   25 |         模拟关节角度（可以根据实际�[01;31m[K�[m[K�器人获取真实数据）
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:50:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\272[m[K’ in program
+   25 |         模拟关节角度（可以根据实际�[01;31m[K�[m[K器人获取真实数据）
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:51:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机[01;31m[K�[m[K��人获取真实数据）
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:52:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\231[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机�[01;31m[K�[m[K�人获取真实数据）
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:53:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\250[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机�[01;31m[K�[m[K人获取真实数据）
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:54:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\344[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器[01;31m[K�[m[K��获取真实数据）
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:55:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\272[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器�[01;31m[K�[m[K�获取真实数据）
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:56:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\272[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器�[01;31m[K�[m[K获取真实数据）
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:57:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\350[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人[01;31m[K�[m[K��取真实数据）
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:58:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\216[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人�[01;31m[K�[m[K�取真实数据）
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:59:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\267[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人�[01;31m[K�[m[K取真实数据）
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:60:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获[01;31m[K�[m[K��真实数据）
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:61:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\217[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获�[01;31m[K�[m[K�真实数据）
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:62:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\226[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获�[01;31m[K�[m[K真实数据）
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:63:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\347[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取[01;31m[K�[m[K��实数据）
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:64:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\234[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取�[01;31m[K�[m[K�实数据）
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:65:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\237[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取�[01;31m[K�[m[K实数据）
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:66:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\345[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真[01;31m[K�[m[K��数据）
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:67:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真�[01;31m[K�[m[K�数据）
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:68:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\236[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真�[01;31m[K�[m[K数据）
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:69:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实[01;31m[K�[m[K��据）
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:70:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\225[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实�[01;31m[K�[m[K�据）
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:71:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\260[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实�[01;31m[K�[m[K据）
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:72:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\346[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实数[01;31m[K�[m[K��）
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:73:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\215[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实数�[01;31m[K�[m[K�）
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:74:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\256[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实数�[01;31m[K�[m[K）
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:75:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\357[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实数据[01;31m[K�[m[K��
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:76:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\274[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实数据�[01;31m[K�[m[K�
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:25:77:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\211[m[K’ in program
+   25 |         模拟关节角度（可以根据实际机器人获取真实数据�[01;31m[K�[m[K
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:31:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktx_buffer_float[m[K’ was not declared in this scope
+   31 |             joint_state.position[i] = [01;31m[Ktx_buffer_float[m[K[i];
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/joint_state_publisher.dir/build.make:63: CMakeFiles/joint_state_publisher.dir/src/joint_state_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2344: CMakeFiles/joint_state_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

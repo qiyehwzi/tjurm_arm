@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/tjurm/demo02_ws/src/tjurm_arm/CMakeLists.txt:38:
+  Parse error.  Expected "(", got identifier with text "uint8_t".
+
+
+make: *** [Makefile:1684: cmake_check_build_system] Error 1

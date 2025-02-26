@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: six_dof_with_ore_and_meshes
+    relative_path: urdf/six_dof_with_ore_and_meshes.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/six_dof_with_ore_and_meshes.srdf
+  CONFIG:
+    author_name: tjurm_arm
+    author_email: 490891994@qq.com
+    generated_timestamp: 1740215729

@@ -1,0 +1,8 @@
+prefix=/home/tjurm/demo02_ws/install
+
+Name: tjurm_arm
+Description: Description of tjurm_arm
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs actionlib actionlib_msgs serial moveit_core moveit_ros_planning moveit_ros_planning_interface tf2_geometry_msgs tf2_ros

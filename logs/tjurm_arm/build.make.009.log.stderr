@@ -1,0 +1,7 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/action_server2.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Krobot_msgs/Move.h: No such file or directory
+   14 | #include [01;31m[K"robot_msgs/Move.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/action_server2.dir/build.make:63: CMakeFiles/action_server2.dir/src/action_server2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

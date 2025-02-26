@@ -1,0 +1,7 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/action_server.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+    1 | #include [01;31m[K<ros/ros.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/action_server.dir/build.make:63: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

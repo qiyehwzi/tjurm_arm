@@ -1,0 +1,6 @@
+devel_space: /home/tjurm/demo02_ws/devel
+install: false
+install_space: /home/tjurm/demo02_ws/install
+profile: default
+source_space: /home/tjurm/demo02_ws/src
+workspace: /home/tjurm/demo02_ws

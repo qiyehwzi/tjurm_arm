@@ -1,0 +1,32 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:7:9:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kuint8_t rx_buffer [24][m[K’
+    7 | uint8_t [01;31m[Krx_buffer[m[K[24];
+      |         [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:5[m[K:
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/include/serial_port.h:13:9:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t rx_buffer [24][m[K’ previously declared here
+   13 | uint8_t [01;36m[Krx_buffer[m[K[24];
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:8:9:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kuint8_t tx_buffer [24][m[K’
+    8 | uint8_t [01;31m[Ktx_buffer[m[K[24];
+      |         [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:5[m[K:
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/include/serial_port.h:14:9:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t tx_buffer [24][m[K’ previously declared here
+   14 | uint8_t [01;36m[Ktx_buffer[m[K[24];
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:9:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat rx_buffer_float [6][m[K’
+    9 | float [01;31m[Krx_buffer_float[m[K[6];
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:5[m[K:
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/include/serial_port.h:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat rx_buffer_float [6][m[K’ previously declared here
+   15 | float [01;36m[Krx_buffer_float[m[K[6];
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:10:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloat tx_buffer_float [6][m[K’
+   10 | float [01;31m[Ktx_buffer_float[m[K[6];
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.cpp:5[m[K:
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/include/serial_port.h:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat tx_buffer_float [6][m[K’ previously declared here
+   16 | float [01;36m[Ktx_buffer_float[m[K[6];
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/serial_port.dir/build.make:63: CMakeFiles/serial_port.dir/src/serial_port.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/serial_port.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

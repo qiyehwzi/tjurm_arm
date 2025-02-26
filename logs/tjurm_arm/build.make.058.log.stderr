@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/joint_state_publisher.dir/src/joint_state_publisher.cpp.o: in function `main':
+joint_state_publisher.cpp:(.text+0x420): undefined reference to `tx_buffer_float'
+/usr/bin/ld: joint_state_publisher.cpp:(.text+0x424): undefined reference to `tx_buffer_float'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/joint_state_publisher.dir/build.make:184: /home/tjurm/demo02_ws/devel/.private/tjurm_arm/lib/tjurm_arm/joint_state_publisher] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2344: CMakeFiles/joint_state_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
