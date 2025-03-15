@@ -1,7 +1,16 @@
 <launch>
   <!-- Define the MoveIt controller manager plugin to use for trajectory execution -->
   <param name="moveit_controller_manager" value="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
+    <param name="moveit_manage_controllers" value="true" />
+    <!-- When determining the expected duration of a trajectory, this multiplicative factor is applied to get the allowed duration of execution -->
+    <param name="trajectory_execution/allowed_execution_duration_scaling" value="1.2" /> default 1.2
+    <!-- Allow more than the expected execution time before triggering a trajectory cancel (applied after scaling) -->
+    <param name="trajectory_execution/allowed_goal_duration_margin" value="0.5" /> default 0.5
+    <!-- Allowed joint-value tolerance for validation that trajectory's first point matches current robot state -->
+    <param name="trajectory_execution/allowed_start_tolerance" value="0.01" /> default 0.01
 
+    <!-- use for simulation -->
+    <param name="fake_execution_type" value="interpolate" />
   <!-- Load controller list to the parameter server -->
   <rosparam file="$(find tjurm_arm)/config/simple_moveit_controllers.yaml" />
   <rosparam file="$(find tjurm_arm)/config/ros_controllers.yaml" />

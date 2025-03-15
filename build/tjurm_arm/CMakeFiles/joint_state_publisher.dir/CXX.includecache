@@ -6,21 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tjurm/demo02_ws/src/tjurm_arm/include/serial_port.h
-iostream
--
-cstring
--
-stdint.h
--
-
 /home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp
 ros/ros.h
 -
 sensor_msgs/JointState.h
 -
-serial_port.h
-/home/tjurm/demo02_ws/src/tjurm_arm/src/serial_port.h
 serial/serial.h
 -
 iostream

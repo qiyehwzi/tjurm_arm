@@ -1,0 +1,16 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp[m[K’ was not declared in this scope
+   29 |         [01;31m[Ksp[m[K.open();
+      |         [01;31m[K^~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:38:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp[m[K’ was not declared in this scope
+   38 |     if([01;31m[Ksp[m[K.isOpen())
+      |        [01;31m[K^~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:63:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp[m[K’ was not declared in this scope
+   63 |         size_t n = [01;31m[Ksp[m[K.available();
+      |                    [01;31m[K^~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:112:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp[m[K’ was not declared in this scope
+  112 |     [01;31m[Ksp[m[K.close();
+      |     [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/joint_state_publisher.dir/build.make:63: CMakeFiles/joint_state_publisher.dir/src/joint_state_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2315: CMakeFiles/joint_state_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

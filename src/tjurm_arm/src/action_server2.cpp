@@ -7,7 +7,7 @@
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/planning_scene_monitor/planning_scene_monitor.h>
 
-using namespace std;
+
 // 重命名类型为 Server
 typedef actionlib::SimpleActionServer<control_msgs::FollowJointTrajectoryAction> Server;
 
@@ -29,7 +29,7 @@ void execute_callback(const control_msgs::FollowJointTrajectoryGoalConstPtr& goa
         moveit_tra.joint_trajectory.points[i].positions.resize(n_joints);
         moveit_tra.joint_trajectory.points[i].velocities.resize(n_joints);
         moveit_tra.joint_trajectory.points[i].accelerations.resize(n_joints);
-
+        
         moveit_tra.joint_trajectory.points[i].time_from_start = goalPtr->trajectory.points[i].time_from_start;
         for(int j=0;j<n_joints; j++) // 遍历每组路点中的每个关节数据
         {
@@ -39,9 +39,9 @@ void execute_callback(const control_msgs::FollowJointTrajectoryGoalConstPtr& goa
         }
     }
 
-    cout << "The trajectory data is:" << "********************************************" << endl;
-    cout << moveit_tra;
-    cout << "********************************************" << "The trajectory data is finished printing." << endl;
+    std::cout << "The trajectory data is:" << "********************************************" << std::endl;
+    std::cout << moveit_tra;
+    std::cout << "********************************************" << "The trajectory data is finished printing." << std::endl;
     ROS_INFO("The number of joints is %d.",n_joints);
     ROS_INFO("The waypoints number of the trajectory is %d.",n_tra_Points);
 
@@ -71,3 +71,4 @@ int main(int argc, char *argv[])
     ros::spin();
     return 0;
 }
+
