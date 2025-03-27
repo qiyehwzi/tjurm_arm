@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot name="hollow_cube">
+
+  <!-- 材料定义 -->
+  <material name="blue">
+    <color rgba="0 0.5 1 1"/>  <!-- 半透明蓝色材质 -->
+  </material>
+  <material name="void">
+    <color rgba="0 0 0 0"/>    <!-- 全透明材质 -->
+  </material>
+
+  <!-- 主链接 -->
+  <link name="base_link">
+    <!-- 大立方体本体（边长280mm） -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.28 0.28 0.28"/>  <!-- 单位：米 -->
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  
+    <!-- 挖空区域（边长240mm） -->
+    <visual>
+      <origin xyz="0 0 0.02" rpy="0 0 0"/>  <!-- Z轴偏移2cm -->
+      <geometry>
+        <box size="0.24 0.24 0.24"/>
+      </geometry>
+      <material name="void"/>  <!-- 透明材质覆盖原表面 -->
+    </visual>
+  </link>
+
+</robot>

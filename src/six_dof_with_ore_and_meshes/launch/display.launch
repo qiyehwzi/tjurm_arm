@@ -3,7 +3,7 @@
     name="model" />
   <param
     name="robot_description"
-    textfile="$(find six_dof_with_ore_and_meshes)/urdf/six_dof_with_ore_and_meshes.urdf" />
+    textfile="$(find six_dof_with_ore_and_meshes)/urdf/ore_tank.urdf" />
   <node
     name="joint_state_publisher_gui"
     pkg="joint_state_publisher_gui"

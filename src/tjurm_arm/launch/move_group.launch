@@ -38,9 +38,11 @@
   -->
 
   <arg name="load_robot_description" default="false" />
+  <arg name="load_block_description" default="false" />
   <!-- load URDF, SRDF and joint_limits configuration -->
   <include file="$(dirname)/planning_context.launch">
     <arg name="load_robot_description" value="$(arg load_robot_description)" />
+    <arg name="load_block_description" value="$(arg load_block_description)" />
   </include>
 
   <!-- Planning Pipelines -->

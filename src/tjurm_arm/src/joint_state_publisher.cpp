@@ -67,14 +67,14 @@ int main(int argc, char *argv[]) {
         {
             //读出数据
             n = sp.read(rx_buffer, n)/4;
-
+            
             tx_buffer_float[0] = 3.1415;
             tx_buffer_float[1] = 2.4287;
             tx_buffer_float[2] = 2.71828;
             tx_buffer_float[3] = 0.983;
             tx_buffer_float[4] = 1.895;
             tx_buffer_float[5] = 1.895;
-
+            
             memcpy(rx_buffer_float,rx_buffer,sizeof(rx_buffer));
             memcpy(tx_buffer,tx_buffer_float,sizeof(tx_buffer_float));
             
@@ -110,7 +110,7 @@ int main(int argc, char *argv[]) {
     
     //关闭串口
     sp.close();
-
+    
     return 0;
 }
 

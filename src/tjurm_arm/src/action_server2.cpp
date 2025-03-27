@@ -19,7 +19,7 @@ void execute_callback(const control_msgs::FollowJointTrajectoryGoalConstPtr& goa
     // 1、解析提交的目标值
     int n_joints = goalPtr->trajectory.joint_names.size();
     int n_tra_Points = goalPtr->trajectory.points.size();
-
+    
     moveit_tra.joint_trajectory.header.frame_id = goalPtr->trajectory.header.frame_id;
     moveit_tra.joint_trajectory.joint_names = goalPtr->trajectory.joint_names;
     moveit_tra.joint_trajectory.points.resize(n_tra_Points);
