@@ -42,11 +42,8 @@ include_directories(
   include
 )
 
-# add_executable(action_server src/action_server.cpp)
-# target_link_libraries(action_server ${catkin_LIBRARIES})
-
-add_executable(action_server2 src/action_server2.cpp)
-target_link_libraries(action_server2 ${catkin_LIBRARIES})
+# add_executable(action_server2 src/action_server2.cpp)
+# target_link_libraries(action_server2 ${catkin_LIBRARIES})
 
 add_executable(joint_state_publisher src/joint_state_publisher.cpp)
 target_link_libraries(joint_state_publisher ${catkin_LIBRARIES})

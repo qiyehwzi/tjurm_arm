@@ -168,19 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named action_server2
-
-# Build rule for target.
-action_server2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 action_server2
-.PHONY : action_server2
-
-# fast build rule for target.
-action_server2/fast:
-	$(MAKE) -f CMakeFiles/action_server2.dir/build.make CMakeFiles/action_server2.dir/build
-.PHONY : action_server2/fast
-
-#=============================================================================
 # Target rules for targets named std_srvs_generate_messages_nodejs
 
 # Build rule for target.
@@ -1454,33 +1441,6 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/action_server2.o: src/action_server2.cpp.o
-
-.PHONY : src/action_server2.o
-
-# target to build an object file
-src/action_server2.cpp.o:
-	$(MAKE) -f CMakeFiles/action_server2.dir/build.make CMakeFiles/action_server2.dir/src/action_server2.cpp.o
-.PHONY : src/action_server2.cpp.o
-
-src/action_server2.i: src/action_server2.cpp.i
-
-.PHONY : src/action_server2.i
-
-# target to preprocess a source file
-src/action_server2.cpp.i:
-	$(MAKE) -f CMakeFiles/action_server2.dir/build.make CMakeFiles/action_server2.dir/src/action_server2.cpp.i
-.PHONY : src/action_server2.cpp.i
-
-src/action_server2.s: src/action_server2.cpp.s
-
-.PHONY : src/action_server2.s
-
-# target to generate assembly for a file
-src/action_server2.cpp.s:
-	$(MAKE) -f CMakeFiles/action_server2.dir/build.make CMakeFiles/action_server2.dir/src/action_server2.cpp.s
-.PHONY : src/action_server2.cpp.s
-
 src/joint_state_publisher.o: src/joint_state_publisher.cpp.o
 
 .PHONY : src/joint_state_publisher.o
@@ -1518,7 +1478,6 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... test"
-	@echo "... action_server2"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_eus"
@@ -1620,9 +1579,6 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/action_server2.o"
-	@echo "... src/action_server2.i"
-	@echo "... src/action_server2.s"
 	@echo "... src/joint_state_publisher.o"
 	@echo "... src/joint_state_publisher.i"
 	@echo "... src/joint_state_publisher.s"
