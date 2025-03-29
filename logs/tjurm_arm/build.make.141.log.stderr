@@ -1,0 +1,12 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:225:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp[m[K’ does not name a type
+  225 |     [01;31m[Ksp[m[K.close();
+      |     [01;31m[K^~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:229:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  229 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:230:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  230 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/joint_state_publisher.dir/build.make:63: CMakeFiles/joint_state_publisher.dir/src/joint_state_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2286: CMakeFiles/joint_state_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

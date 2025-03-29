@@ -11,12 +11,28 @@
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/planning_scene_monitor/planning_scene_monitor.h>
  
+#define PI 3.14159265358979323846
+
 serial::Serial sp;  //创建一个serial类
 sensor_msgs::JointState joint_state;    // 定义关节状态消息
 uint8_t rx_buffer[24];
 uint8_t tx_buffer[24];
 float rx_buffer_float[6];
 float tx_buffer_float[6];
+
+#pragma pack(1)
+typedef struct 
+{
+  uint8_t sof;
+  float tra[6];
+  uint8_t tailer;
+} send_msg_t;
+#pragma pack()
+
+#define LEN_TX_PACKET 29
+uint8_t PC_SEND_BUF[LEN_TX_PACKET+1];
+
+send_msg_t send_msg;
 
 void serial_init();
 
@@ -75,6 +91,12 @@ int main(int argc, char *argv[]) {
     ros::init(argc, argv, "joint_state_publisher");
     ros::NodeHandle nh;
 
+    // 创建 action 对象(NodeHandle，话题名称，回调函数解析传入的目标值，服务器是否自启动)
+    Server moveit_server(nh,"controller/follow_joint_trajectory", boost::bind(&execute_callback, _1, &moveit_server), false);
+    // 手动启动服务器
+    moveit_server.start();
+
+
     // 创建一个发布者，发布到 /joint_states 话题
     ros::Publisher joint_states_pub = nh.advertise<sensor_msgs::JointState>("/joint_states", 10);
 
@@ -85,12 +107,6 @@ int main(int argc, char *argv[]) {
     // spinner.start();
     // // 初始化MoveIt!接口
     // moveit::planning_interface::MoveGroupInterface move_group("arm");
-
-    // 创建 action 对象(NodeHandle，话题名称，回调函数解析传入的目标值，服务器是否自启动)
-    Server moveit_server(nh,"controller/follow_joint_trajectory", boost::bind(&execute_callback, _1, &moveit_server), false);
-    // 手动启动服务器
-    moveit_server.start();
-
 
     serial_init();
 
@@ -121,37 +137,94 @@ int main(int argc, char *argv[]) {
     joint_state.effort.resize(6);    // 关节力矩数组
 
     // 设置发布频率
-    ros::Rate rate(500.0);
+    ros::Rate rate(100.0);
     
     while(ros::ok())
     {
-        //获取缓冲区内的字节数
-        size_t n = sp.available();
-        if(n!=0)
-        {
-            //读出数据
-            n = sp.read(rx_buffer, n)/4;
-            
-            tx_buffer_float[0] = 3.1415;
-            tx_buffer_float[1] = 2.4287;
-            tx_buffer_float[2] = 2.71828;
-            tx_buffer_float[3] = 0.983;
-            tx_buffer_float[4] = 1.895;
-            tx_buffer_float[5] = 1.895;
-            
-            memcpy(rx_buffer_float,rx_buffer,sizeof(rx_buffer));
-            memcpy(tx_buffer,tx_buffer_float,sizeof(tx_buffer_float));
-            
-            for(int i=0; i<n; i++)
+        ros::spinOnce();
+
+            // 检查是否有轨迹数据且非空
+            if (!moveit_tra.joint_trajectory.points.empty()) 
             {
-                // std::cout << std::hex << (rx_buffer[i] & 0xff) << " ";
-                std::cout << (rx_buffer_float[i]) << " ";
+                    // for(i = 0; i < 500; i++)
+                    // {
+                    // // 获取当前路点的关节位置数据
+                    // std::vector<double>& positions = moveit_tra.joint_trajectory.points[i].positions;
+                    
+                    // // 将double数组转换为字节流
+                    // std::vector<uint8_t> buffer;
+                    // for (double pos : positions) {
+                    //     uint8_t* bytes = reinterpret_cast<uint8_t*>(&pos);
+                    //     buffer.insert(buffer.end(), bytes, bytes + sizeof(double));
+                    // }
+                    
+                    // // 通过串口发送
+                    // sp.write(buffer.data(), buffer.size());
+                    // }
+
+                    for(int i=0;i<n_tra_Points;i++)
+                    {
+                        ros::Time start_time = ros::Time::now();
+                        ros::Duration execute_time(0.01);
+                        while (ros::Time::now() - start_time < execute_time) {
+                            // Execute the operation here
+
+                        send_msg.sof=0x69;
+                        for(int j=0;j<6;j++)
+                        {
+                          send_msg.tra[j]=moveit_tra.joint_trajectory.points[i].positions[j];
+                        }
+                        send_msg.tailer=0x65;
+
+
+                        send_msg.tra[0]=moveit_tra.joint_trajectory.points[i].positions[0];
+                        send_msg.tra[1]=moveit_tra.joint_trajectory.points[i].positions[1];
+                        send_msg.tra[2]=moveit_tra.joint_trajectory.points[i].positions[2];
+                        send_msg.tra[3]=moveit_tra.joint_trajectory.points[i].positions[3];
+                        send_msg.tra[4]=moveit_tra.joint_trajectory.points[i].positions[4];
+                        send_msg.tra[5]=moveit_tra.joint_trajectory.points[i].positions[5];
+                        ros::Duration(0.02).sleep();
+                        memcpy(PC_SEND_BUF,&send_msg,sizeof(send_msg));
+                        PC_SEND_BUF[LEN_TX_PACKET]='\n';
+                        sp.write(PC_SEND_BUF,sizeof(PC_SEND_BUF));
+                        // ROS_INFO_STREAM(i);
+                        // ROS_INFO_STREAM(send_msg.tra[1]);
+                        }
+                    }
             }
-            std::cout << std::endl;
-            //把数据发送回去
-            // sp.write(rx_buffer, n*4);
-            sp.write(tx_buffer, 24);
-        }
+
+
+        //serial data size info
+        // ROS_INFO("Sent %zu bytes of trajectory data", buffer.size());
+    
+
+        // //获取缓冲区内的字节数
+        // size_t n = sp.available();
+        // if(n!=0)
+        // {
+        //     //读出数据
+        //     n = sp.read(rx_buffer, n)/4;
+            
+        //     tx_buffer_float[0] = 3.1415;
+        //     tx_buffer_float[1] = 2.4287;
+        //     tx_buffer_float[2] = 2.71828;
+        //     tx_buffer_float[3] = 0.983;
+        //     tx_buffer_float[4] = 1.895;
+        //     tx_buffer_float[5] = 1.895;
+            
+        //     memcpy(rx_buffer_float,rx_buffer,sizeof(rx_buffer));
+        //     memcpy(tx_buffer,tx_buffer_float,sizeof(tx_buffer_float));
+            
+        //     for(int i=0; i<n; i++)
+        //     {
+        //         // std::cout << std::hex << (rx_buffer[i] & 0xff) << " ";
+        //         std::cout << (rx_buffer_float[i]) << " ";
+        //     }
+        //     std::cout << std::endl;
+        //     //把数据发送回去
+        //     // sp.write(rx_buffer, n*4);
+        //     sp.write(tx_buffer, 24);
+        // }
         
         for (int i = 0; i < 6; ++i) {
             //模拟关节角度
@@ -159,7 +232,7 @@ int main(int argc, char *argv[]) {
 
             //stm32 publish real angle
             joint_state.position[i] = rx_buffer_float[i];
-            std::cout << rx_buffer_float[i] << " ";
+            // std::cout << rx_buffer_float[i] << " ";
         }
 
         // 填充时间戳
@@ -176,7 +249,7 @@ int main(int argc, char *argv[]) {
     //关闭串口
     sp.close();
 
-    ros::spin();
+    // ros::spin();
 
     return 0;
 }

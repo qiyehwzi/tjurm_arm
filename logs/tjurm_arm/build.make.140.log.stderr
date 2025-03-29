@@ -1,0 +1,34 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:204:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  204 |         [01;31m[Kfor[m[K (int i = 0; i < 6; ++i) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:204:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  204 |         for (int i = 0; [01;31m[Ki[m[K < 6; ++i) {
+      |                         [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:204:32:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K++[m[K’ token
+  204 |         for (int i = 0; i < 6; [01;31m[K++[m[Ki) {
+      |                                [01;31m[K^~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:214:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state[m[K’ does not name a type
+  214 |         [01;31m[Kjoint_state[m[K.header.stamp = ros::Time::now();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:217:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_pub[m[K’ does not name a type; did you mean ‘[01m[Kjoint_state[m[K’?
+  217 |         [01;31m[Kjoint_states_pub[m[K.publish(joint_state);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kjoint_state[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:220:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krate[m[K’ does not name a type
+  220 |         [01;31m[Krate[m[K.sleep();
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:221:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  221 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:225:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksp[m[K’ does not name a type
+  225 |     [01;31m[Ksp[m[K.close();
+      |     [01;31m[K^~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:229:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  229 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:230:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  230 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/joint_state_publisher.dir/build.make:63: CMakeFiles/joint_state_publisher.dir/src/joint_state_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2286: CMakeFiles/joint_state_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

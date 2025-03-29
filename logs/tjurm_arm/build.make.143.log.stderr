@@ -1,0 +1,16 @@
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:137:20:[m[K [01;31m[Kerror: [m[Ktoo many decimal points in number
+  137 |     ros::Rate rate([01;31m[K10.0.0[m[K);
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:254:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  254 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:263:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  263 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/tjurm/demo02_ws/src/tjurm_arm/src/joint_state_publisher.cpp:81:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   81 | int main(int argc, char *argv[]) [01;36m[K{[m[K
+      |                                  [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/joint_state_publisher.dir/build.make:63: CMakeFiles/joint_state_publisher.dir/src/joint_state_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2286: CMakeFiles/joint_state_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
