@@ -26,11 +26,14 @@ typedef actionlib::SimpleActionServer<control_msgs::FollowJointTrajectoryAction>
 // 用于存储 moveit 发送出来的轨迹数据
 moveit_msgs::RobotTrajectory moveit_tra;
 
+int n_joints;
+int n_tra_Points;
+
 void execute_callback(const control_msgs::FollowJointTrajectoryGoalConstPtr& goalPtr, Server* moveit_server)
 {
     // 1、解析提交的目标值
-    int n_joints = goalPtr->trajectory.joint_names.size();
-    int n_tra_Points = goalPtr->trajectory.points.size();
+    n_joints = goalPtr->trajectory.joint_names.size();
+    n_tra_Points = goalPtr->trajectory.points.size();
     
     moveit_tra.joint_trajectory.header.frame_id = goalPtr->trajectory.header.frame_id;
     moveit_tra.joint_trajectory.joint_names = goalPtr->trajectory.joint_names;
